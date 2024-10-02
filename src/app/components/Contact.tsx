@@ -64,7 +64,7 @@ export const Contact: React.FC = () => {
                     </div>
                     <div className="lg:p-30 md:p-42 sm:p-20 p-8 w-full lg:w-1/2">
                         <div className="flex flex-col gap-10">
-                            <h1 className="text-5xl mb-4 max-w-sm">Deixe sua marca no mundo digital.</h1>
+                            <h1 className="md:text-5xl text-4xl mb-4 max-w-sm">Deixe sua marca no mundo digital.</h1>
                             <h1 className="text-2xl mb-4">Fale Conosco!</h1>
                         </div>
                         <form onSubmit={handleSubmit}>

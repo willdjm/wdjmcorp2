@@ -35,7 +35,7 @@ export const About = () => {
               Sobre nós
             </p>
             <p className="md:text-justify text-left md:text-4xl">
-              A WDJM Corp fornece serviços de marketing e publicidade digitais de grande escala. Ajudamos nossos clientes a ter sucesso através de estratégias inovadoras e eficazes.
+              A WDJM Corp fornece serviços de marketing e publicidade digitais. Ajudamos nossos clientes na criação de Landing Pages, vídeos institucionais para imobiliárias, Logotipos, com estratégias inovadoras e eficazes.
             </p>
 
           </div>

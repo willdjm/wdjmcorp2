@@ -33,7 +33,7 @@ export const ScrollTop: React.FC = () => {
     <div>
       {isVisible && (
         <button
-          className="fixed bottom-16 right-8 bg-gradient-to-r from-purple-500 to-pink-500 text-white p-4 rounded-full shadow-lg focus:outline-none z-50"
+          className="fixed bottom-10 right-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white p-4 rounded-full shadow-lg focus:outline-none z-50"
           onClick={scrollToTop}
         >
           <IoIosArrowUp size={20} />
