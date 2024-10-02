@@ -63,13 +63,13 @@ export const Contact: React.FC = () => {
                         </picture>
                     </div>
                     <div className="lg:p-30 md:p-42 sm:p-20 p-8 w-full lg:w-1/2">
-                        <div className="flex flex-col gap-10">
+                        <div className="flex flex-col md:gap-10 gap-5">
                             <h1 className="md:text-5xl text-4xl mb-4 max-w-sm">Deixe sua marca no mundo digital.</h1>
                             <h1 className="text-2xl mb-4">Fale Conosco!</h1>
                         </div>
                         <form onSubmit={handleSubmit}>
                             <div className="mb-4">
-                                <label htmlFor="nome" className="block text-white">Nome <span className="text-red-500">*</span></label>
+                                <label htmlFor="nome" className="block text-white md:text-base text-sm">Nome <span className="text-red-500">*</span></label>
                                 <input
                                     type="text"
                                     id="nome"
@@ -82,7 +82,7 @@ export const Contact: React.FC = () => {
                                 />
                             </div>
                             <div className="mb-4">
-                                <label htmlFor="email" className="block text-white">Email <span className="text-red-500">*</span></label>
+                                <label htmlFor="email" className="block text-white md:text-base text-sm">Email <span className="text-red-500">*</span></label>
                                 <input
                                     type="email"
                                     id="email"
@@ -95,7 +95,7 @@ export const Contact: React.FC = () => {
                                 />
                             </div>
                             <div className="mb-4">
-                                <label htmlFor="mensagem" className="block text-white">Mensagem <span className="text-red-500">*</span></label>
+                                <label htmlFor="mensagem" className="block text-white md:text-base text-sm">Mensagem <span className="text-red-500">*</span></label>
                                 <textarea
                                     id="mensagem"
                                     name="mensagem"

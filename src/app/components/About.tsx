@@ -23,7 +23,7 @@ export const About = () => {
 
               <img
                 src="/logo2.png"
-                className="md:w-32 w-28 opacity-80"
+                className="md:w-32 w-24 opacity-80"
                 alt=""
               />
 
@@ -34,7 +34,7 @@ export const About = () => {
             <p className="text-justify md:text-2xl uppercase text-gray-500 font-medium">
               Sobre nós
             </p>
-            <p className="md:text-justify text-left md:text-4xl">
+            <p className="md:text-justify text-left text-xl max-w-72 md:max-w-full md:text-4xl">
               A WDJM Corp fornece serviços de marketing e publicidade digitais. Ajudamos nossos clientes na criação de Landing Pages, vídeos institucionais para imobiliárias, Logotipos, com estratégias inovadoras e eficazes.
             </p>
 

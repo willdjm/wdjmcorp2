@@ -26,7 +26,7 @@ export const Banner = () => {
                 </div>
 
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-white z-40 bg-black/70 py-14 md:py-14">
-                    <div className="flex flex-col w-full max-w-5xl items-center pt-20 md:pt-0 justify-center md:text-9xl text-5xl text-center px-4 md:px-0">
+                    <div className="flex flex-col w-full max-w-5xl items-center pt-14 md:pt-0 justify-center md:text-9xl text-5xl text-center px-4 md:px-0">
 <h1>
     Soluções em Tecnologia
 </h1>
