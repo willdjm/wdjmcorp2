@@ -15,6 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
+      <head>
+        <meta name="google-site-verification" content="XTy_wMkxR7w9O0GqESqZyZAgX4dtHWf3vhHfIf7-76Y" />
+      </head>
       <body className={montserrat.className}>{children}</body>
     </html>
   );

@@ -18,7 +18,7 @@ export const About = () => {
       <div className="absolute inset-0 flex flex-col items-center justify-center md:justify-start text-white z-40">
         <div className="flex flex-col w-full items-start md:justify-start text-2xl text-center px-5 md:px-32 md:py-20">
 
-          <div className="md:py-20 pt-10">
+          <div className="md:py-20 pt-6">
             <picture className="relative ">
 
               <img
