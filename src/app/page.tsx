@@ -12,7 +12,6 @@ export default function Home() {
     <main>
 <Banner/>
 <About/>
-{/* <Parcerias/> */}
 <Depoimentos/>
 <Contact/>
       <Footer />
